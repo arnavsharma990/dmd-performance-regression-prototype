@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artefacts produced by dmd
+*.o
+*.obj
+benchmarks/hello
+benchmarks/template
+
+# Result files (generated at runtime)
+results.json
+baseline.json
+current.json
